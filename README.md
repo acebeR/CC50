@@ -3,6 +3,5 @@ CC50 - O Curso de Ciência da Computação de Harvard no Brasil
 
 # Bata no Salto
 - Exercícioaula 0 de Scratch
-  ![image](https://github.com/user-attachments/assets/a16b7ad2-4c12-4a13-aa33-f08168a5ee7f)
-  
+![Demo do projeto](https://github.com/acebeR/CC50/blob/main/bata-no-salto/img/ScreenRec_2025-06-27%2014-28-34.gif?raw=true)
 
