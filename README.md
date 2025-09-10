@@ -15,6 +15,9 @@ Instrutor do programa Brasil: Cadu Capella Reis
   <br/>
   <img src="https://github.com/acebeR/CC50/blob/main/aula_00/jogo/jogo.gif?raw=true" style="width: 300px; height: 200px; object-fit: contain;" />
 
+  # Link do git das aulas do CC50
+  https://cs50.dev/
+
 
 
 
