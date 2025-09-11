@@ -6,6 +6,9 @@ Professores: David J. Malan, Brian Yu e Doug Llyod
 Instrutor do programa Brasil: Cadu Capella Reis
 <br/>
 # Exercícios Bacanas
+- Exercício aula 6: Python
+  Sobre: Porcentagem de chances dos times ganharem através dos dados retirados de um csv.
+  <img src="https://github.com/acebeR/CC50/blob/main/aula_06/copa_do_mundo/captura.JPG?raw=true" style="width: 800px; height: 400px; object-fit: contain;" />
 - Exercício aula 4: Memória
   Detalhes: Editar cor, blur... da imagem
   <img src="https://github.com/acebeR/CC50/blob/main/aula_04/filtro/edicao_de_imagem.gif?raw=true" style="width: 800px; height: 400px; object-fit: contain;" />
