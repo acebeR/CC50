@@ -1,12 +1,19 @@
-# CC50
+# <img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/0c9dd51c-2786-4396-a98a-52682b2775e1" /> CC50 
 CC50 - O Curso de Ciência da Computação de Harvard no Brasil
 <br/>
 Professores: David J. Malan, Brian Yu e Doug Llyod
 <br/>
 Instrutor do programa Brasil: Cadu Capella Reis
 <br/>
+# Curiosidade
+Por que o pato está associado ao CS50?
+1. Pato de Borracha (Rubber Duck Debugging)
+No mundo da programação, existe uma técnica chamada “Rubber Duck Debugging” — que é literalmente usar um pato de borracha para explicar seu código e encontrar bugs.
+Você explica o que seu código faz para o pato.
+Muitas vezes, só explicar ajuda a encontrar erros.
+O pato virou um símbolo informal de programação e debugging.
 # Exercícios Bacanas
-- Exercício aula 6: Python
+- Exercício aula 6: Python<br/>
   Sobre: Porcentagem de chances dos times ganharem através dos dados retirados de um csv.
   <img src="https://github.com/acebeR/CC50/blob/main/aula_06/copa_do_mundo/captura.JPG?raw=true" style="width: 800px; height: 400px; object-fit: contain;" />
 - Exercício aula 4: Memória
