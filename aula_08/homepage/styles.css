@@ -1,0 +1,153 @@
+.caixa{
+    margin: 10px;
+}
+.titulo-principal {
+  font-family: "Poppins", "Segoe UI", Arial, sans-serif; /* fonte moderna e elegante */
+  font-size: 3rem; /* tamanho grande */
+  font-weight: 700; /* negrito */
+  text-transform: uppercase; /* tudo em maiúsculas */
+  letter-spacing: 2px; /* espaço entre letras */
+  color: #2c3e50; /* cor elegante (azul escuro) */
+  text-align: center; /* centraliza o texto */
+  margin-top: 40px; /* espaço acima */
+  margin-bottom: 20px; /* espaço abaixo */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* sombra suave */
+}
+/* Linha embaixo do título */
+.titulo-principal::after {
+  content: "";
+  display: block;
+  width: 80px;            /* tamanho da linha */
+  height: 3px;            /* espessura da linha */
+  background-color: #00b4db; /* cor da linha */
+  margin: 10px auto 0;    /* centraliza a linha */
+  border-radius: 2px;     /* bordas levemente arredondadas */
+}
+.cadastro{
+    margin: 50px;
+}
+
+body {
+  background-color: #f8f9fa;
+  font-family: "Poppins", sans-serif;
+  color: #2c3e50;
+}
+
+/* Layout lado a lado */
+.container-cadastro {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 20px;
+  flex-wrap: wrap; /* responsivo */
+}
+
+/* ===== LADO ESQUERDO ===== */
+.form-container {
+  flex: 1;
+  min-width: 300px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-principal {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+textarea.form-control {
+  resize: none;
+}
+
+.btn-enviar {
+  width: 100%;
+  background-color: #00b4db;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-enviar:hover {
+  background-color: #0083b0;
+}
+
+/* ===== LADO DIREITO ===== */
+.preview-card {
+  flex: 1;
+  min-width: 300px;
+}
+
+.subtitulo {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.card-pessoa {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+.topo-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.foto-pessoa {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+  border: 3px solid #00b4db;
+}
+
+.nome-pessoa {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.historia-pessoa {
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  padding: 15px;
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+.card {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
