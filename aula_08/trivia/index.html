@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- para rodar: http-server -->
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <div>
+                    <h3 id="pergunta0"></h3>
+                    <select id="opcoesSelect0">
+                        <option value="">-- Escolha uma opção --</option>
+                    </select>
+                    <button onclick="responderSelect(0)">Responder</button>
+                </div>
+                <div>
+                    <h3 id="pergunta1"></h3>
+                    <button onclick="responderBotao('Certo', 1)">Certo</button>
+                    <button onclick="responderBotao('Errado', 1)">Errado</button>
+                </div>
+
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>Respostas</h3>
+                <h3 id="resposta"></h3>
+            </div>
+
+        </div>
+        <script>
+ const perguntas = [
+    {
+        id: 0,
+        tipoPergunta: 1,
+        textoPergunta: "Qual o nome e a idade da pessoa mais velha mencionada na Bíblia?",
+        resposta: "Matusalém, viveu 969 anos",
+        opcoes: ["Enos, viveu 905 anos",
+                 "Noé, viveu 990 anos",
+                 "Matusalém, viveu 969 anos",
+                 "Rainha Ester, viveu 859 anos"]
+    },
+    {
+        id: 1,
+        tipoPergunta: 2,
+        textoPergunta: `Quanto aos conceitos de redes de computadores, aos sites de busca e pesquisa na Internet e à inteligência artificial, julgue o item seguinte.
+        Em redes de computadores, o protocolo HTTP é utilizado principalmente para a transferência segura de arquivos entre dois dispositivos em uma rede local.`,
+        resposta: "Certo",
+        opcoes: ["Certo", "Errado"]
+    }
+];
+
+// Pergunta 0 (Select)
+const pergunta0 = perguntas.find(p => p.id === 0);
+document.getElementById("pergunta0").textContent = pergunta0.textoPergunta;
+
+const select0 = document.getElementById("opcoesSelect0");
+pergunta0.opcoes.forEach(opcao => {
+    const option = document.createElement("option");
+    option.value = opcao;
+    option.textContent = opcao;
+    select0.appendChild(option);
+});
+
+// Pergunta 1 (Certo ou Errado)
+const pergunta1 = perguntas.find(p => p.id === 1);
+document.getElementById("pergunta1").textContent = pergunta1.textoPergunta;
+
+// Função para responder Select
+function responderSelect(idPergunta) {
+    const select = document.getElementById(`opcoesSelect${idPergunta}`);
+    if (!select) {
+        console.error("Select não encontrado!");
+        return;
+    }
+    const respostaSelecionada = select.value;
+    if (!respostaSelecionada) {
+        alert("Escolha uma opção!");
+        return;
+    }
+    mostrarResultado(respostaSelecionada, idPergunta);
+}
+
+// Função para responder Certo/Errado
+function responderBotao(resposta, idPergunta) {
+    mostrarResultado(resposta, idPergunta);
+}
+
+// Mostra o resultado
+function mostrarResultado(resposta, idPergunta) {
+    const pergunta = perguntas.find(p => p.id === idPergunta);
+    if (!pergunta) return;
+
+    let mensagem = "";
+    if (resposta === pergunta.resposta) {
+        mensagem = "Você Acertou! Resposta: " + pergunta.resposta;
+    } else {
+        mensagem = "Você Errou! Resposta: " + pergunta.resposta;
+    }
+
+    document.getElementById("resposta").textContent = mensagem;
+}
+
+
+        </script>
+    </body>
+
+</html>
