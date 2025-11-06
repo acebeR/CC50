@@ -14,9 +14,9 @@ Muitas vezes, só explicar ajuda a encontrar erros.
 O pato virou um símbolo informal de programação e debugging.
 # Exercícios Bacanas
 - Exercício aula 8: HTML,CSS e JavaScript<br/>
-<img src="https://github.com/acebeR/CC50/blob/main/aula_08/homepage/imag/home.JPG?raw=true" style="width: 800px; height: 400px; object-fit: contain;" />
-<img src="https://github.com/acebeR/CC50/blob/main/aula_08/homepage/imag/cadastro.JPG?raw=true" style="width: 800px; height: 400px; object-fit: contain;" />
-<img src="https://github.com/acebeR/CC50/blob/main/aula_08/homepage/imag/footer.JPG?raw=true" style="width: 800px; height: 400px; object-fit: contain;" />
+<img src="https://github.com/acebeR/CC50/blob/main/aula_08/homepage/img/home.JPG?raw=true" style="width: 800px; height: 400px; object-fit: contain;" />
+<img src="https://github.com/acebeR/CC50/blob/main/aula_08/homepage/img/cadastro.JPG?raw=true" style="width: 800px; height: 400px; object-fit: contain;" />
+<img src="https://github.com/acebeR/CC50/blob/main/aula_08/homepage/img/footer.JPG?raw=true" style="width: 800px; height: 400px; object-fit: contain;" />
 - Exercício aula 6: Python<br/>
   Sobre: Porcentagem de chances dos times ganharem através dos dados retirados de um csv.
   <img src="https://github.com/acebeR/CC50/blob/main/aula_06/copa_do_mundo/captura.JPG?raw=true" style="width: 800px; height: 400px; object-fit: contain;" />
