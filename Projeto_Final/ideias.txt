@@ -1,14 +1,2 @@
-Quiz Educacional - Bíblico
-Descrição: Um site ou app que faz perguntas sobre temas (história, ciência, programação etc.).
-Tecnologias: HTML + CSS + JavaScript (ou Flask).
-Extras: Sistema de pontuação e ranking dos usuários.
-
-Usei:
-npm install -g @angular/cli
-ng new meu-projeto-angular
-
-Para rodar: ng serve
-
-Segue o link do projeto: https://github.com/acebeR/projetoFinalCS50
-
-
+Link da apresentação: https://youtu.be/uDwIYlQKYIk
+Link do projeto: https://github.com/acebeR/contasViagem
